@@ -39,6 +39,12 @@ pi:
 	@GOOS=linux GOARCH=arm GOARM=6 $(GO_ENV) go build $(GO_FLAGS) -tags="$(TAGS_GOLLUM)" -o gollum
 	@zip dist/gollum-$(GOLLUM_VERSION)-Linux_Arm6.zip gollum
 
+.PHONY: bbb # Build gollum zip-file for BeagleBone Black / Linux (ARMv7)
+bbb:
+	@echo "\033[0;33mBuilding for BeagleBone Black (Linux/ARMv7)\033[0;0m"
+	@GOOS=linux GOARCH=arm GOARM=7 $(GO_ENV) go build $(GO_FLAGS) -tags="$(TAGS_GOLLUM)" -o gollum
+	@zip dist/gollum-$(GOLLUM_VERSION)-Linux_Arm7.zip gollum
+
 .PHONY: win # Build gollum zip-file for Windows (x64)
 win:
 	@echo "\033[0;33mBuilding for Windows/x64\033[0;0m"
