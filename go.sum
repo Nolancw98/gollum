@@ -84,6 +84,8 @@ github.com/rcrowley/go-metrics v0.0.0-20180503174638-e2704e165165/go.mod h1:bCqn
 github.com/sirupsen/logrus v1.0.6 h1:hcP1GmhGigz/O7h1WVUM5KklBp1JoNS9FggWKdj/j3s=
 github.com/sirupsen/logrus v1.0.6/go.mod h1:pMByvHTf9Beacp5x1UXfOR9xyW/9antXMhjMPG0dEzc=
 github.com/smartystreets/go-aws-auth v0.0.0-20180515143844-0c1422d1fdb9/go.mod h1:SnhjPscd9TpLiy1LpzGSKh3bXCfxxXuqd9xmQJy3slM=
+github.com/stratoberry/go-gpsd v0.0.0-20161204231141-54ddcfa61f47 h1:VrBVsttOEYT6UQZ0yv0D+Dg+TBPnvDB3bdiNdmiUFsQ=
+github.com/stratoberry/go-gpsd v0.0.0-20161204231141-54ddcfa61f47/go.mod h1:AiDv9UF/0tKQBVmL7iojbxXhq36cY1/El3AuhfCK2Co=
 github.com/trivago/grok v1.0.0 h1:oV2ljyZT63tgXkmgEHg2U0jMqiKKuL0hkn49s6aRavQ=
 github.com/trivago/grok v1.0.0/go.mod h1:9t59xLInhrncYq9a3J7488NgiBZi5y5yC7bss+w4NHM=
 github.com/trivago/tgo v1.0.5 h1:ihzy8zFF/LPsd8oxsjYOE8CmyOTNViyFCy0EaFreUIk=

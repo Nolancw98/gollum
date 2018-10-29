@@ -40,6 +40,7 @@ require (
 	github.com/quipo/statsd v0.0.0-20180118161217-3d6a5565f314
 	github.com/rcrowley/go-metrics v0.0.0-20180503174638-e2704e165165
 	github.com/sirupsen/logrus v1.0.6
+	github.com/stratoberry/go-gpsd v0.0.0-20161204231141-54ddcfa61f47
 	github.com/trivago/grok v1.0.0
 	github.com/trivago/tgo v1.0.5
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
