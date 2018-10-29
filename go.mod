@@ -10,6 +10,7 @@ require (
 	github.com/artyom/thrift v0.0.0-20130902103359-388840a05deb
 	github.com/aws/aws-sdk-go v1.15.22
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
+	github.com/brutella/can v0.0.0-20180117080637-818f1bc3aba8
 	github.com/bsm/sarama-cluster v2.1.15+incompatible
 	github.com/coreos/go-systemd v0.0.0-20180705093442-88bfeed483d3
 	github.com/coreos/pkg v0.0.0-20180108230652-97fdf19511ea // indirect
