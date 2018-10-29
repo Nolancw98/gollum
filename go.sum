@@ -16,6 +16,8 @@ github.com/aws/aws-sdk-go v1.15.22 h1:oBDjhvhppuHcEzchKrAB2tnt8nENQG47dGiC1865tq
 github.com/aws/aws-sdk-go v1.15.22/go.mod h1:mFuSZ37Z9YOHbQEwBWztmVzqXrEkub65tZoCYDt7FT0=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 h1:xJ4a3vCFaGF/jqvzLMYoU8P317H5OQ+Via4RmuPwCS0=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
+github.com/brutella/can v0.0.0-20180117080637-818f1bc3aba8 h1:HDkjeGghpa/vHAVpJegroWIGHwhGYtt1ImPLiX6qQDs=
+github.com/brutella/can v0.0.0-20180117080637-818f1bc3aba8/go.mod h1:90rl9C6e/IlwlfDd+zdX/WfCuwPxcUJdwzgjvrhGr+0=
 github.com/bsm/sarama-cluster v2.1.15+incompatible h1:RkV6WiNRnqEEbp81druK8zYhmnIgdOjqSVi0+9Cnl2A=
 github.com/bsm/sarama-cluster v2.1.15+incompatible/go.mod h1:r7ao+4tTNXvWm+VRpRJchr2kQhqxgmAp2iEX5W96gMM=
 github.com/coreos/go-systemd v0.0.0-20180705093442-88bfeed483d3 h1:h/wTyTK7VVFaSLpGFKLPkEYiWuloHpStKd30EZIaL9I=
