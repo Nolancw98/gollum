@@ -45,6 +45,16 @@ bbb:
 	@GOOS=linux GOARCH=arm GOARM=7 $(GO_ENV) go build $(GO_FLAGS) -tags="$(TAGS_GOLLUM)" -o gollum
 	@zip dist/gollum-$(GOLLUM_VERSION)-Linux_Arm7.zip gollum
 
+.PHONY: upload_dyno
+upload_dyno:
+	@echo "\033[0;33mUploading to dyno\033[0;0m"
+	@rsync -av --progress gollum 'dyno:~/'
+
+.PHONY: upload_daq
+upload_daq:
+	@echo "\033[0;33mUploading to daq\033[0;0m"
+	@rsync -av --progress gollum 'daq:~/'
+
 .PHONY: win # Build gollum zip-file for Windows (x64)
 win:
 	@echo "\033[0;33mBuilding for Windows/x64\033[0;0m"
