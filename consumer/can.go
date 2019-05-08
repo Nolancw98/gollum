@@ -83,7 +83,7 @@ func (cons *Can) Enqueue(data []byte) {
 }
 
 func (cons *Can) ProcessFrame(frm can.Frame) {
-	str := fmt.Sprintf("%-4x [%d] % -24X", frm.ID, frm.Length, frm.Data[:frm.Length])
+	str := fmt.Sprintf("{\"id\":\"%#-4x\", \"length\":%d, \"data\":\"% -24X\"}\n", frm.ID, frm.Length, frm.Data[:frm.Length])
 	cons.Enqueue([]byte(str))
 }
 
